@@ -37,7 +37,7 @@ def parse_list_file(link, output_directory):
     result_rules = {"version": 1, "rules": []}
 
     for pattern, addresses in df.groupby('pattern')['address'].apply(list).to_dict().items():
-        rule_entry = {pattern: addresses}
+        rule_entry = {pattern: [address.strip() for address in addresses]}
         result_rules["rules"].append(rule_entry)
 
     # 使用 output_directory 拼接完整路径
