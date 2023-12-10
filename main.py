@@ -2,14 +2,62 @@ import pandas as pd
 import concurrent.futures
 import os
 import json
+import requests
+import yaml
+import ipaddress
 
-def read_csv_and_append(link):
-    return pd.read_csv(link, header=None, names=['pattern', 'address', 'other'], on_bad_lines='warn')
+def read_yaml_from_url(url):
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an HTTPError for bad responses
+    yaml_data = yaml.safe_load(response.text)
+    return yaml_data
+
+def read_list_from_url(url):
+    df = pd.read_csv(url, header=None, names=['pattern', 'address', 'other'], on_bad_lines='warn')
+    return df
+
+def is_ipv4_or_ipv6(address):
+    try:
+        ipaddress.IPv4Network(address)
+        return 'ipv4'
+    except ValueError:
+        try:
+            ipaddress.IPv6Network(address)
+            return 'ipv6'
+        except ValueError:
+            return None
+
+def parse_and_convert_to_dataframe(link):
+    # 根据链接扩展名分情况处理
+    if link.endswith('.yaml') or link.endswith('.txt'):
+        try:
+            yaml_data = read_yaml_from_url(link)
+            rows = []
+            for item in yaml_data.get('payload', []):
+                address = item.strip("'")
+                if ',' not in item:
+                    if is_ipv4_or_ipv6(item):
+                        pattern = 'IP-CIDR'
+                    else:
+                        if address.startswith('+'):
+                            pattern = 'DOMAIN-SUFFIX'
+                            address = address[1:]
+                        else:
+                            pattern = 'DOMAIN'
+                else:
+                    pattern, address = item.split(',', 1)  
+                rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
+            df = pd.DataFrame(rows, columns=['pattern', 'address', 'other'])
+        except:
+            df = read_list_from_url(link)
+    else:
+        df = read_list_from_url(link)
+    return df
 
 def parse_list_file(link, output_directory):
     with concurrent.futures.ThreadPoolExecutor() as executor:
         # 使用executor.map并行处理链接
-        results = list(executor.map(read_csv_and_append, [link]))
+        results = list(executor.map(parse_and_convert_to_dataframe, [link]))
         # 拼接为一个DataFrame
         df = pd.concat(results, ignore_index=True)
 
