@@ -4,6 +4,7 @@
     {
       "domain": [
         "apps.apple.com",
+        "itunes.apple.com",
         "a1.mzstatic.com",
         "a2.mzstatic.com",
         "a3.mzstatic.com",
@@ -213,18 +214,9 @@
         "devimages-cdn.apple.com",
         "devstreaming-cdn.apple.com",
         "docs-assets.developer.apple.com",
-        "hls-svod.itunes.apple.com",
-        "itunes.apple.com",
         "js-cdn.music.apple.com",
         "lookup-api.apple.com",
-        "mask-api.fe.apple-dns.net",
-        "mask-api.icloud.com",
-        "mask-h2.icloud.com",
-        "mask-t.apple-dns.net",
-        "mask.apple-dns.net",
-        "mask.icloud.com",
         "sandbox.itunes.apple.com",
-        "testflight.apple.com",
         "hls-amt.itunes.apple.com",
         "hls.itunes.apple.com",
         "np-edge.itunes.apple.com",
@@ -235,9 +227,17 @@
         "fmipmobile.icloud.com",
         "statici.icloud.com",
         "amp-api.fitness.apple.com",
+        "hls-svod.itunes.apple.com",
         "guzzoni.apple.com",
         "beta.apple.com",
-        "www-cdn.icloud.com.akadns.net"
+        "testflight.apple.com",
+        "www-cdn.icloud.com.akadns.net",
+        "mask-api.fe.apple-dns.net",
+        "mask-api.icloud.com",
+        "mask-h2.icloud.com",
+        "mask-t.apple-dns.net",
+        "mask.apple-dns.net",
+        "mask.icloud.com"
       ]
     },
     {
@@ -1759,11 +1759,9 @@
         "wwwipodlounge.com",
         "wwwmacbookair.com",
         "apple.comscoreresearch.com",
-        "apple.news",
         "appleenews.com",
         "applemusic.berlin",
         "applemusic.co",
-        "applemusic.com",
         "applemusic.com.au",
         "applemusic.hamburg",
         "applemusic.wang",
@@ -1796,12 +1794,14 @@
         "iphoto.wang",
         "musickit.net",
         "wwwapplemusic.com",
+        "applemusic.com",
+        "apple.news",
         "apple-dns.net",
-        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com"
+        "apzones.com",
+        "cdn-apple.com"
       ]
     },
     {
