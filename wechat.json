@@ -15,18 +15,18 @@
     },
     {
       "domain_suffix": [
-        "qlogo.cn",
-        "qpic.cn",
-        "servicewechat.com",
-        "tenpay.com",
-        "wechat.com",
-        "wechatlegal.net",
-        "wechatpay.com",
-        "weixin.com",
-        "weixin.qq.com",
-        "weixinbridge.com",
-        "weixinsxy.com",
-        "wxapp.tc.qq.com"
+        ".qlogo.cn",
+        ".qpic.cn",
+        ".servicewechat.com",
+        ".tenpay.com",
+        ".wechat.com",
+        ".wechatlegal.net",
+        ".wechatpay.com",
+        ".weixin.com",
+        ".weixin.qq.com",
+        ".weixinbridge.com",
+        ".weixinsxy.com",
+        ".wxapp.tc.qq.com"
       ]
     },
     {
