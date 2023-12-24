@@ -97,6 +97,8 @@ def parse_list_file(link, output_directory):
         else:
             rule_entry = {pattern: [address.strip() for address in addresses]}
             result_rules["rules"].append(rule_entry)
+    # 删除 'domain_entries' 中的重复值
+    domain_entries = list(set(domain_entries))
     if domain_entries:
         result_rules["rules"].insert(0, {'domain': domain_entries})
 
