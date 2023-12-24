@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain": [
-        "applemusic.com",
+        "music.apple.com",
+        "blobstore.apple.com",
+        "audio-ssl.itunes.apple.com",
         "audio.itunes.apple.com",
+        "applemusic.com",
         "aod.itunes.apple.com",
         "mvod.itunes.apple.com",
-        "music.apple.com",
         "aod-ssl.itunes.apple.com",
-        "audio-ssl.itunes.apple.com",
-        "blobstore.apple.com",
         "streamingaudio.itunes.apple.com"
       ]
     },
