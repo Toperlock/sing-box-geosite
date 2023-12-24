@@ -13,9 +13,9 @@
     },
     {
       "domain_suffix": [
-        "applemusic.com",
-        "blobstore.apple.com",
-        "music.apple.com"
+        ".applemusic.com",
+        ".blobstore.apple.com",
+        ".music.apple.com"
       ]
     }
   ]
