@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "app.biliapi.net",
-        "upos-hz-mirrorakam.akamaized.net",
-        "app.bilibili.com",
-        "www.bilibili.com",
-        "api.biliapi.com",
+        "grpc.biliapi.net",
         "m.bilibili.com",
-        "api.bilibili.com",
+        "upos-hz-mirrorakam.akamaized.net",
         "app.biliapi.com",
+        "www.bilibili.com",
+        "api.bilibili.com",
+        "app.biliapi.net",
+        "api.biliapi.com",
         "api.biliapi.net",
-        "grpc.biliapi.net"
+        "app.bilibili.com"
       ]
     },
     {
