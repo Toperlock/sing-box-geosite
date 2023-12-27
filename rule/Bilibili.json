@@ -4,15 +4,15 @@
     {
       "domain": [
         "grpc.biliapi.net",
-        "api.bilibili.com",
-        "api.biliapi.com",
-        "api.biliapi.net",
         "app.biliapi.com",
-        "m.bilibili.com",
-        "app.bilibili.com",
+        "api.biliapi.net",
+        "api.biliapi.com",
         "upos-hz-mirrorakam.akamaized.net",
+        "www.bilibili.com",
+        "app.bilibili.com",
+        "m.bilibili.com",
         "app.biliapi.net",
-        "www.bilibili.com"
+        "api.bilibili.com"
       ]
     },
     {
