@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain": [
-        "xp.apple.com",
         "updates-http.cdn-apple.com",
+        "gdmf.apple.com",
         "mesu.apple.com",
-        "gdmf.apple.com"
+        "xp.apple.com"
       ]
     }
   ]
