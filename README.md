@@ -18,6 +18,8 @@
 
 [@izumiChan16](https://github.com/izumiChan16)
 
+[@ifaintad](https://github.com/ifaintad)
+
 [@NobyDa](https://github.com/NobyDa)
 
 [@blackmatrix7](https://github.com/blackmatrix7)
