@@ -56,6 +56,17 @@ def parse_and_convert_to_dataframe(link):
         df = read_list_from_url(link)
     return df
 
+# 对字典进行排序，含list of dict
+def sort_dict(obj):
+    if isinstance(obj, dict):
+        return {k: sort_dict(obj[k]) for k in sorted(obj)}
+    elif isinstance(obj, list) and all(isinstance(elem, dict) for elem in obj):
+        return sorted([sort_dict(x) for x in obj], key=lambda d: sorted(d.keys())[0])
+    elif isinstance(obj, list):
+        return sorted(sort_dict(x) for x in obj)
+    else:
+        return obj
+
 def parse_list_file(link, output_directory):
     with concurrent.futures.ThreadPoolExecutor() as executor:
         # 使用executor.map并行处理链接
@@ -107,11 +118,15 @@ def parse_list_file(link, output_directory):
     with open(file_name, 'w', encoding='utf-8') as output_file:
         json.dump(result_rules, output_file, ensure_ascii=False, indent=2)
 
+    srs_path = file_name.replace(".json", ".srs")
+    os.system(f"sing-box rule-set compile --output {srs_path} {file_name}")
     return file_name
 
 # 读取 links.txt 中的每个链接并生成对应的 JSON 文件
 with open("../links.txt", 'r') as links_file:
     links = links_file.read().splitlines()
+
+links = [l for l in links if l.strip() and not l.strip().startswith("#")]
 
 output_dir = "./"
 result_file_names = []
