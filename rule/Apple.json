@@ -4,7 +4,6 @@
     {
       "domain": [
         "apps.apple.com",
-        "itunes.apple.com",
         "a1.mzstatic.com",
         "a2.mzstatic.com",
         "a3.mzstatic.com",
@@ -211,6 +210,7 @@
         "docs-assets.developer.apple.com",
         "gspe1-ssl.ls.apple.com",
         "hls.itunes.apple.com",
+        "itunes.apple.com",
         "js-cdn.music.apple.com",
         "lookup-api.apple.com",
         "mask-api.fe.apple-dns.net",
