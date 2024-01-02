@@ -1,17 +1,16 @@
 {
-  "version": 1,
   "rules": [
     {
       "domain": [
-        "music.apple.com",
         "aod-ssl.itunes.apple.com",
-        "audio-ssl.itunes.apple.com",
-        "mvod.itunes.apple.com",
-        "audio.itunes.apple.com",
-        "applemusic.com",
         "aod.itunes.apple.com",
-        "streamingaudio.itunes.apple.com",
-        "blobstore.apple.com"
+        "applemusic.com",
+        "audio-ssl.itunes.apple.com",
+        "audio.itunes.apple.com",
+        "blobstore.apple.com",
+        "music.apple.com",
+        "mvod.itunes.apple.com",
+        "streamingaudio.itunes.apple.com"
       ]
     },
     {
@@ -21,5 +20,6 @@
         ".music.apple.com"
       ]
     }
-  ]
+  ],
+  "version": 1
 }

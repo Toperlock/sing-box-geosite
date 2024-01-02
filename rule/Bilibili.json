@@ -1,18 +1,17 @@
 {
-  "version": 1,
   "rules": [
     {
       "domain": [
-        "api.biliapi.net",
-        "www.bilibili.com",
-        "app.biliapi.net",
         "api.biliapi.com",
-        "grpc.biliapi.net",
-        "app.bilibili.com",
-        "upos-hz-mirrorakam.akamaized.net",
-        "m.bilibili.com",
+        "api.biliapi.net",
         "api.bilibili.com",
-        "app.biliapi.com"
+        "app.biliapi.com",
+        "app.biliapi.net",
+        "app.bilibili.com",
+        "grpc.biliapi.net",
+        "m.bilibili.com",
+        "upos-hz-mirrorakam.akamaized.net",
+        "www.bilibili.com"
       ]
     },
     {
@@ -25,5 +24,6 @@
         "121.11.192.0/24"
       ]
     }
-  ]
+  ],
+  "version": 1
 }

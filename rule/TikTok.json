@@ -1,31 +1,30 @@
 {
-  "version": 1,
   "rules": [
     {
       "domain": [
-        "ipstatp.com",
-        "byteoversea.com",
-        "isnssdk.com",
         "bytedapm.com",
-        "tiktokv.com",
-        "ibytedtos.com",
         "bytegecko-i18n.com",
-        "p16-tiktokcdn-com.akamaized.net",
-        "tiktokd.org",
-        "musical.ly",
-        "snssdk.com",
-        "lf16-pkgcdn.pitaya-clientai.com",
-        "tiktokd.net",
-        "tiktok.com",
         "bytegecko.com",
-        "tiktokcdn.com",
-        "lf16-effectcdn.byteeffecttos-g.com",
+        "byteoversea.com",
         "capcut.com",
-        "tik-tokapi.com",
-        "tiktokcdn-us.com",
+        "ibytedtos.com",
         "ibyteimg.com",
+        "ipstatp.com",
+        "isnssdk.com",
+        "lf16-effectcdn.byteeffecttos-g.com",
+        "lf16-pkgcdn.pitaya-clientai.com",
         "muscdn.com",
-        "sgpstatp.com"
+        "musical.ly",
+        "p16-tiktokcdn-com.akamaized.net",
+        "sgpstatp.com",
+        "snssdk.com",
+        "tik-tokapi.com",
+        "tiktok.com",
+        "tiktokcdn-us.com",
+        "tiktokcdn.com",
+        "tiktokd.net",
+        "tiktokd.org",
+        "tiktokv.com"
       ]
     },
     {
@@ -58,5 +57,6 @@
         ".tiktokv.com"
       ]
     }
-  ]
+  ],
+  "version": 1
 }
