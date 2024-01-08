@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "api.imem.app",
         "api.swiftgram.app"
       ]
     },
