@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "huggingface.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "huggingface"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".huggingface.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+
+      ]
+    }
+  ],
+  "version": 1
+}
