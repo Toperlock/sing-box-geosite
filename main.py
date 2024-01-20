@@ -43,7 +43,7 @@ def parse_and_convert_to_dataframe(link):
                             pattern = 'DOMAIN-SUFFIX'
                             address = address[1:]
                             if address.startswith('.'):
-                                address = address[2:]
+                                address = address[1:]
                         else:
                             pattern = 'DOMAIN'
                 else:
