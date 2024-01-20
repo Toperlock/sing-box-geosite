@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "cherrytv.one"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".cherrytv.one"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "cherrytv"
+      ]
+    }
+  ]
+}
