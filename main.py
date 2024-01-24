@@ -33,22 +33,43 @@ def parse_and_convert_to_dataframe(link):
         try:
             yaml_data = read_yaml_from_url(link)
             rows = []
-            for item in yaml_data.get('payload', []):
-                address = item.strip("'")
-                if ',' not in item:
-                    if is_ipv4_or_ipv6(item):
-                        pattern = 'IP-CIDR'
-                    else:
-                        if address.startswith('+'):
-                            pattern = 'DOMAIN-SUFFIX'
-                            address = address[1:]
-                            if address.startswith('.'):
-                                address = address[1:]
+            if not isinstance(yaml_data, str):
+                for item in yaml_data.get('payload', []):
+                    address = item.strip("'")
+                    if ',' not in item:
+                        if is_ipv4_or_ipv6(item):
+                            pattern = 'IP-CIDR'
                         else:
-                            pattern = 'DOMAIN'
-                else:
-                    pattern, address = item.split(',', 1)  
-                rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
+                            if address.startswith('+'):
+                                pattern = 'DOMAIN-SUFFIX'
+                                address = address[1:]
+                                if address.startswith('.'):
+                                    address = address[1:]
+                            else:
+                                pattern = 'DOMAIN'
+                    else:
+                        pattern, address = item.split(',', 1)  
+                    rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
+            else:
+                lines = yaml_data.splitlines()
+                line_content = lines[0]
+                items = line_content.split()
+                for item in items:
+                    address = item
+                    if ',' not in item:
+                        if is_ipv4_or_ipv6(item):
+                            pattern = 'IP-CIDR'
+                        else:
+                            if address.startswith('+'):
+                                pattern = 'DOMAIN-SUFFIX'
+                                address = address[1:]
+                                if address.startswith('.'):
+                                    address = address[1:]
+                            else:
+                                pattern = 'DOMAIN'
+                    else:
+                        pattern, address = item.split(',', 1)  
+                    rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
             df = pd.DataFrame(rows, columns=['pattern', 'address', 'other'])
         except:
             df = read_list_from_url(link)
