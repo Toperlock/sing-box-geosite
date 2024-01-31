@@ -4,6 +4,7 @@
       "domain": [
         "api.imem.app",
         "api.swiftgram.app",
+        "cdn-telegram.org",
         "comments.app",
         "contest.com",
         "graph.org",
@@ -34,6 +35,7 @@
     },
     {
       "domain_suffix": [
+        ".cdn-telegram.org",
         ".comments.app",
         ".contest.com",
         ".graph.org",
@@ -64,7 +66,7 @@
         "2001:67c:4e8::/48",
         "2001:b28:f23c::/47",
         "2001:b28:f23f::/48",
-        "2a0a:f280::/32",
+        "2a0a:f280::/29",
         "5.28.192.0/18",
         "91.108.0.0/16"
       ]
