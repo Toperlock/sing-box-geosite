@@ -2,11 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "fbcdn-a.akamaihd.net"
-      ]
-    },
-    {
       "domain_keyword": [
         "facebook",
         "fbcdn"
@@ -308,9 +303,7 @@
         "faycbok.com",
         "fb.careers",
         "fb.com",
-        "fb.gg",
         "fb.me",
-        "fb.watch",
         "fbacebook.com",
         "fbaddins.com",
         "fbbmarket.com",
@@ -339,7 +332,6 @@
         "fbthirdpartypixel.net",
         "fbthirdpartypixel.org",
         "fburl.com",
-        "fbwat.ch",
         "fbworkmail.com",
         "fcacebook.com",
         "fcaebook.com",
