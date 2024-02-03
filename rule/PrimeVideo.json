@@ -4,10 +4,6 @@
       "domain": [
         "aiv-cdn.net",
         "aiv-delivery.net",
-        "amazonprimevideo.cn",
-        "amazonprimevideo.com.cn",
-        "amazonprimevideos.com",
-        "amazonvideo.cc",
         "amazonvideo.com",
         "atv-ps.amazon.com",
         "avodmp4s3ww-a.akamaihd.net",
@@ -18,12 +14,7 @@
         "dmqdd6hw24ucf.cloudfront.net",
         "fls-na.amazon.com",
         "media-amazon.com",
-        "prime-video.com",
-        "primevideo.cc",
         "primevideo.com",
-        "primevideo.info",
-        "primevideo.org",
-        "primevideo.tv",
         "pv-cdn.net",
         "www.amazon.com"
       ]
@@ -37,18 +28,9 @@
       "domain_suffix": [
         ".aiv-cdn.net",
         ".aiv-delivery.net",
-        ".amazonprimevideo.cn",
-        ".amazonprimevideo.com.cn",
-        ".amazonprimevideos.com",
-        ".amazonvideo.cc",
         ".amazonvideo.com",
         ".media-amazon.com",
-        ".prime-video.com",
-        ".primevideo.cc",
         ".primevideo.com",
-        ".primevideo.info",
-        ".primevideo.org",
-        ".primevideo.tv",
         ".pv-cdn.net"
       ]
     }
