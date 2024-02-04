@@ -2,12 +2,21 @@
   "rules": [
     {
       "domain": [
-        "data.inicoapp.com",
-      ]
-    },
-    {
-      "domain_keyword": [
-        "inicpapp"
+        "allShortcutsEnabled",
+        "blob",
+        "copilotAccessAllowed",
+        "copilotInfo",
+        "csrf_tokens",
+        "currentUser",
+        "fileTree",
+        "fileTreeProcessingTime",
+        "foldersToFetch",
+        "path",
+        "reducedMotionEnabled",
+        "refInfo",
+        "repo",
+        "symbolsExpanded",
+        "treeExpanded"
       ]
     }
   ],
