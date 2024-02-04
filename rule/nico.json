@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "data.inicoapp.com",
+      ]
+    },
+    {
+      "domain_keyword": [
+        "inicpapp"
+      ]
+    }
+  ],
+  "version": 1
+}
