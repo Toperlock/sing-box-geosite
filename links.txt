@@ -19,3 +19,4 @@ https://adrules.top/adrules_domainset.txt
 https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rules/ACL4SSR/Clash/Ruleset/Twitch.list
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
