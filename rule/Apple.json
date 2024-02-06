@@ -4,7 +4,6 @@
     {
       "domain": [
         "apps.apple.com",
-        "itunes.apple.com",
         "a1.mzstatic.com",
         "a2.mzstatic.com",
         "a3.mzstatic.com",
@@ -199,7 +198,6 @@
         "audio.itunes.apple.com",
         "mvod.itunes.apple.com",
         "streamingaudio.itunes.apple.com",
-        "gspe1-ssl.ls.apple.com",
         "news-client-search.apple.com",
         "api-glb-sea.smoot.apple.com",
         "apple.comscoreresearch.com",
@@ -210,7 +208,10 @@
         "devimages-cdn.apple.com",
         "devstreaming-cdn.apple.com",
         "docs-assets.developer.apple.com",
+        "gspe1-ssl.ls.apple.com",
+        "hls-svod.itunes.apple.com",
         "hls.itunes.apple.com",
+        "itunes.apple.com",
         "js-cdn.music.apple.com",
         "lookup-api.apple.com",
         "mask-api.fe.apple-dns.net",
@@ -226,6 +227,7 @@
         "np-edge.itunes.apple.com",
         "play-edge.itunes.apple.com",
         "sandbox.itunes.apple.com",
+        "testflight.apple.com",
         "tv.applemusic.com",
         "uts-api.itunes.apple.com",
         "hls-amt.itunes.apple.com",
@@ -233,10 +235,8 @@
         "fmipmobile.icloud.com",
         "statici.icloud.com",
         "amp-api.fitness.apple.com",
-        "hls-svod.itunes.apple.com",
         "guzzoni.apple.com",
         "beta.apple.com",
-        "testflight.apple.com",
         "www-cdn.icloud.com.akadns.net"
       ]
     },
@@ -1763,6 +1763,7 @@
         "appleenews.com",
         "applemusic.berlin",
         "applemusic.co",
+        "applemusic.com",
         "applemusic.com.au",
         "applemusic.hamburg",
         "applemusic.wang",
@@ -1795,13 +1796,12 @@
         "iphoto.wang",
         "musickit.net",
         "wwwapplemusic.com",
-        "applemusic.com",
         "apple-dns.net",
+        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com",
-        "cdn-apple.com"
+        "apzones.com"
       ]
     },
     {
