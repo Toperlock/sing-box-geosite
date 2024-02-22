@@ -4,6 +4,7 @@
     {
       "domain": [
         "apps.apple.com",
+        "itunes.apple.com",
         "a1.mzstatic.com",
         "a2.mzstatic.com",
         "a3.mzstatic.com",
@@ -198,6 +199,7 @@
         "audio.itunes.apple.com",
         "mvod.itunes.apple.com",
         "streamingaudio.itunes.apple.com",
+        "gspe1-ssl.ls.apple.com",
         "news-client-search.apple.com",
         "api-glb-sea.smoot.apple.com",
         "apple.comscoreresearch.com",
@@ -208,8 +210,6 @@
         "devimages-cdn.apple.com",
         "devstreaming-cdn.apple.com",
         "docs-assets.developer.apple.com",
-        "gspe1-ssl.ls.apple.com",
-        "itunes.apple.com",
         "js-cdn.music.apple.com",
         "lookup-api.apple.com",
         "mask-api.fe.apple-dns.net",
@@ -1797,11 +1797,11 @@
         "musickit.net",
         "wwwapplemusic.com",
         "apple-dns.net",
-        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com"
+        "apzones.com",
+        "cdn-apple.com"
       ]
     },
     {
