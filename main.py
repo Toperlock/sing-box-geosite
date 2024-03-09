@@ -45,7 +45,7 @@ def parse_and_convert_to_dataframe(link):
                     if is_ipv4_or_ipv6(item):
                         pattern = 'IP-CIDR'
                     else:
-                        if address.startswith('+'):
+                        if address.startswith('+') or address.startswith('.'):
                             pattern = 'DOMAIN-SUFFIX'
                             address = address[1:]
                             if address.startswith('.'):
