@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "cu.poloemby.xyz",
+        "e1.tls.ink",
+        "emby.cn2gias.uk",
+        "emby.milkcat.net",
+        "emby.misakaf.xyz",
+        "emby.riches.cloud",
+        "embyaz.misakaf.xyz",
+        "embyclub.maoxiong.cloud",
+        "hs.gcx920110.com",
+        "play.charontv.com",
+        "pornemby.maoxiong.cloud",
+        "sg.gcx920110.com",
+        "src-emby.cn2gias.uk",
+        "zf.hk01.77is.top",
+        "zzl.poloemby.xyz"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "emby",
+        "magpie"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".cu.poloemby.xyz",
+        ".e1.tls.ink",
+        ".emby.cn2gias.uk",
+        ".emby.milkcat.net",
+        ".emby.misakaf.xyz",
+        ".emby.riches.cloud",
+        ".embyaz.misakaf.xyz",
+        ".embyclub.maoxiong.cloud",
+        ".hs.gcx920110.com",
+        ".play.charontv.com",
+        ".pornemby.maoxiong.cloud",
+        ".sg.gcx920110.com",
+        ".src-emby.cn2gias.uk",
+        ".zf.hk01.77is.top",
+        ".zzl.poloemby.xyz"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "161.97.148.156/24,no-resolve"
+      ]
+    }
+  ],
+  "version": 1
+}
