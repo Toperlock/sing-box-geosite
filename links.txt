@@ -3,3 +3,4 @@ https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt
 https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt
 https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/proxy.txt
 https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
+https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/telegramcidr.txt
