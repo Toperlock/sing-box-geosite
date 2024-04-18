@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat
+
