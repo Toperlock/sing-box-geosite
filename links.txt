@@ -1,3 +1,1 @@
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Resolve.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list
-https://raw.githubusercontent.com/lin438/sing-box-geosite/main/cloudflare-radar-domains-top-1000000-cn.txt
+https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat
