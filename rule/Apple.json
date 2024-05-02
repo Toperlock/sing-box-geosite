@@ -257,6 +257,7 @@
         "news-edge.apple.com",
         "news-events.apple.com",
         "sandbox.itunes.apple.com",
+        "testflight.apple.com",
         "hls-amt.itunes.apple.com",
         "hls.itunes.apple.com",
         "np-edge.itunes.apple.com",
@@ -269,7 +270,6 @@
         "amp-api.fitness.apple.com",
         "guzzoni.apple.com",
         "beta.apple.com",
-        "testflight.apple.com",
         "www-cdn.icloud.com.akadns.net"
       ]
     },
@@ -1830,11 +1830,11 @@
         "applemusic.com",
         "apple-dns.net",
         "apple.news",
+        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com",
-        "cdn-apple.com"
+        "apzones.com"
       ]
     },
     {
