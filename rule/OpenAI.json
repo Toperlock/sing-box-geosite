@@ -8,7 +8,6 @@
         "alkalicore-pa.clients6.google.com",
         "alkalimakersuite-pa.clients6.google.com",
         "anthropic.com",
-        "api-iam.intercom.io",
         "api.githubcopilot.com",
         "api.microsoftapp.net",
         "api.msn.com",
@@ -72,7 +71,6 @@
         "self.events.data.microsoft.com",
         "sentry.io",
         "services.bingapis.com",
-        "sfo3.turn.livekit.cloud",
         "static.cloudflareinsights.com",
         "stripe.com",
         "sydney.bing.com",
@@ -85,7 +83,6 @@
     {
       "domain_keyword": [
         "openai",
-        "openaicom",
         "openaicom-api"
       ]
     },
