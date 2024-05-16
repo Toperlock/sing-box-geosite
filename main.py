@@ -13,8 +13,13 @@ def read_yaml_from_url(url):
     return yaml_data
 
 def read_list_from_url(url):
-    df = pd.read_csv(url, header=None, names=['pattern', 'address', 'other'], on_bad_lines='warn')
-    return df
+    df = pd.read_csv(url, header=None, names=['pattern', 'address', 'other', 'other2', 'other3'])
+    filtered_rows = []
+    for index, row in df.iterrows():
+        if 'AND' not in row['pattern']:
+            filtered_rows.append(row)
+    df_filtered = pd.DataFrame(filtered_rows, columns=['pattern', 'address', 'other', 'other2', 'other3'])
+    return df_filtered
 
 def is_ipv4_or_ipv6(address):
     try:
