@@ -1792,11 +1792,9 @@
         "wwwipodlounge.com",
         "wwwmacbookair.com",
         "apple.comscoreresearch.com",
-        "apple.news",
         "appleenews.com",
         "applemusic.berlin",
         "applemusic.co",
-        "applemusic.com",
         "applemusic.com.au",
         "applemusic.hamburg",
         "applemusic.wang",
@@ -1829,12 +1827,14 @@
         "iphoto.wang",
         "musickit.net",
         "wwwapplemusic.com",
+        "applemusic.com",
         "apple-dns.net",
-        "cdn-apple.com",
+        "apple.news",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com"
+        "apzones.com",
+        "cdn-apple.com"
       ]
     },
     {
