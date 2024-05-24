@@ -4,6 +4,7 @@
       "domain": [
         "ai.com",
         "ai.google.dev",
+        "aida.googleapis.com",
         "aistudio.google.com",
         "algolia.net",
         "alkalicore-pa.clients6.google.com",
@@ -41,6 +42,7 @@
         "generativeai.google",
         "generativelanguage.googleapis.com",
         "grazie.ai",
+        "grazie.aws.intellij.net",
         "host.livekit.cloud",
         "identrust.com",
         "imagine.meta.com",
@@ -113,6 +115,7 @@
         ".generativeai.google",
         ".generativelanguage.googleapis.com",
         ".grazie.ai",
+        ".grazie.aws.intellij.net",
         ".host.livekit.cloud",
         ".identrust.com",
         ".intercom.io",
