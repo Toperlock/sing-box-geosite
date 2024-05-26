@@ -1,0 +1,37 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "app.adjust.com",
+        "bdtj.tagtic.cn",
+        "dizhensubao.getui.com",
+        "dl.google.com",
+        "errlog.umeng.com",
+        "fairplay.l.qq.com",
+        "googletraveladservices.com",
+        "koodomobile.ca",
+        "koodomobile.com",
+        "livew.l.qq.com",
+        "msg.umeng.com",
+        "msg.umengcloud.com",
+        "ol.epicgames.com",
+        "origin-a.akamaihd.net",
+        "rewards.hypixel.net",
+        "tracking-protection.cdn.mozilla.net",
+        "tracking.miui.com",
+        "vd.l.qq.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".dizhensubao.getui.com",
+        ".googletraveladservices.com",
+        ".koodomobile.ca",
+        ".koodomobile.com",
+        ".ol.epicgames.com",
+        ".tracking-protection.cdn.mozilla.net"
+      ]
+    }
+  ],
+  "version": 1
+}

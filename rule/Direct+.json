@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "ad.12306.cn",
+        "b.lnk0.com",
+        "dl.delivery.mp.microsoft.com",
+        "download.microsoft.com",
+        "gg.caixin.com",
+        "kuwo.cn",
+        "myunidays.uk",
+        "ntservicepack.microsoft.com",
+        "pinduoduo.com",
+        "sdkapp.uve.weibo.com",
+        "ucweb.com",
+        "update.microsoft.com",
+        "windowsupdate.com",
+        "windowsupdate.microsoft.com",
+        "wustat.windows.com",
+        "yangkeduo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".b.lnk0.com",
+        ".dl.delivery.mp.microsoft.com",
+        ".kuwo.cn",
+        ".myunidays.uk",
+        ".pinduoduo.com",
+        ".ucweb.com",
+        ".update.microsoft.com",
+        ".windowsupdate.com",
+        ".windowsupdate.microsoft.com",
+        ".yangkeduo.com"
+      ]
+    }
+  ],
+  "version": 1
+}

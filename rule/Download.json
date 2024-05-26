@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "smtp"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "aria2"
+      ]
+    },
+    {
+      "domain_regex": [
+        "(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?",
+        "(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)",
+        "(.+\\.|^)(360|so)\\.(cn|com)",
+        "(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)",
+        "(Subject|HELO|SMTP)",
+        "(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".smtp"
+      ]
+    }
+  ],
+  "version": 1
+}

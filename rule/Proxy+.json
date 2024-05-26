@@ -1,0 +1,58 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "861000.xyz",
+        "91porn.com",
+        "blog.misaka.rest",
+        "cdctel.com",
+        "cdnb.iz8qkg.com",
+        "doubanio.com",
+        "frp.104300.xyz",
+        "githubusercontent.com",
+        "guoguouser.cainiao.com",
+        "haijiao.com",
+        "haiwaikan.com",
+        "hlj.fun",
+        "img.killcovid2021.com",
+        "iz8qkg.com",
+        "kin6c1.com",
+        "maker-cloud.cc",
+        "mobile.launchdarkly.com",
+        "naifei.pro",
+        "nobelium.vercel.app",
+        "open-ai-chat-omega.vercel.app",
+        "raw.githubusercontent.com",
+        "sub.v1.mk",
+        "t3.hq668.shop",
+        "teacat.cloud",
+        "translate.googleapis.com",
+        "ts2.hjf5e.com",
+        "twc.trafficmanager.net",
+        "v82u1l.com",
+        "wallhaven.cc"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "dytt8",
+        "railway",
+        "rsshub"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".861000.xyz",
+        ".cdctel.com",
+        ".doubanio.com",
+        ".githubusercontent.com",
+        ".haiwaikan.com",
+        ".iz8qkg.com",
+        ".kin6c1.com",
+        ".naifei.pro",
+        ".v82u1l.com"
+      ]
+    }
+  ],
+  "version": 1
+}
