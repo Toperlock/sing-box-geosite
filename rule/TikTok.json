@@ -2,30 +2,9 @@
   "rules": [
     {
       "domain": [
-        "bytedapm.com",
-        "bytegecko-i18n.com",
-        "byteoversea.com",
-        "capcut.com",
-        "ibytedtos.com",
-        "ibyteimg.com",
-        "ipstatp.com",
-        "isnssdk.com",
         "lf16-effectcdn.byteeffecttos-g.com",
         "lf16-pkgcdn.pitaya-clientai.com",
-        "muscdn.com",
-        "musical.ly",
-        "p16-tiktokcdn-com.akamaized.net",
-        "sgpstatp.com",
-        "snssdk.com",
-        "tik-tokapi.com",
-        "tiktok.com",
-        "tiktokcdn-us.com",
-        "tiktokcdn.com",
-        "tiktokd.net",
-        "tiktokd.org",
-        "tiktokmusic.app",
-        "tiktokv.com",
-        "tiktokv.us"
+        "p16-tiktokcdn-com.akamaized.net"
       ]
     },
     {
