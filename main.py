@@ -4,7 +4,6 @@ import concurrent.futures
 import os
 import json
 import requests
-import urllib
 import yaml
 import ipaddress
 
@@ -164,7 +163,6 @@ result_file_names = []
 for link in links:
     result_file_name = parse_list_file(link, output_directory=output_dir)
     result_file_names.append(result_file_name)
-    print(result_file_names)
 
 # 打印生成的文件名
 # for file_name in result_file_names:
