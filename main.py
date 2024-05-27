@@ -4,6 +4,7 @@ import concurrent.futures
 import os
 import json
 import requests
+import urllib
 import yaml
 import ipaddress
 
@@ -63,6 +64,7 @@ def is_ipv4_or_ipv6(address):
             return None
 
 def parse_and_convert_to_dataframe(link):
+    rules = []
     # 根据链接扩展名分情况处理
     if link.endswith('.yaml') or link.endswith('.txt'):
         try:
@@ -92,10 +94,10 @@ def parse_and_convert_to_dataframe(link):
                 rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
             df = pd.DataFrame(rows, columns=['pattern', 'address', 'other'])
         except:
-            df, rules_from_url = read_list_from_url(link)
+            df, rules = read_list_from_url(link)
     else:
-        df, rules_from_url = read_list_from_url(link)
-    return df
+        df, rules = read_list_from_url(link)
+    return df, rules
 
 # 对字典进行排序，含list of dict
 def sort_dict(obj):
@@ -110,8 +112,10 @@ def sort_dict(obj):
 
 def parse_list_file(link, output_directory):
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        results= list(executor.map(parse_and_convert_to_dataframe, [link]))  # 使用executor.map并行处理链接
-        df = pd.concat(results, ignore_index=True)  # 拼接为一个DataFrame
+        results= list(executor.map(parse_and_convert_to_dataframe, [link]))  # 使用executor.map并行处理链接, 得到(df, rules)元组的列表
+        dfs = [df for df, rules in results]   # 提取df的内容
+        rules_list = [rules for df, rules in results]  # 提取逻辑规则rules的内容
+        df = pd.concat(dfs, ignore_index=True)  # 拼接为一个DataFrame
     df = df[~df['pattern'].str.contains('#')].reset_index(drop=True)  # 删除pattern中包含#号的行
     df = df[df['pattern'].isin(MAP_DICT.keys())].reset_index(drop=True)  # 删除不在字典中的pattern
     df = df.drop_duplicates().reset_index(drop=True)  # 删除重复行
@@ -136,9 +140,8 @@ def parse_list_file(link, output_directory):
         result_rules["rules"].insert(0, {'domain': domain_entries})
 
     # 处理逻辑规则
-    _, rules_from_url = read_list_from_url(link)
-    if rules_from_url:
-        result_rules["rules"].extend(rules_from_url)
+    if rules_list[0] != "[]":
+        result_rules["rules"].extend(rules_list[0])
 
     # 使用 output_directory 拼接完整路径
     file_name = os.path.join(output_directory, f"{os.path.basename(link).split('.')[0]}.json")
@@ -161,6 +164,7 @@ result_file_names = []
 for link in links:
     result_file_name = parse_list_file(link, output_directory=output_dir)
     result_file_names.append(result_file_name)
+    print(result_file_names)
 
 # 打印生成的文件名
 # for file_name in result_file_names:
