@@ -122,18 +122,6 @@
         "45.76.214.191/32",
         "64.23.132.171/32"
       ]
-    },
-    {
-      "mode": "and",
-      "rules": [
-        {
-          "domain_keyword": "chatgpt-async-webps-prod-eastus-"
-        },
-        {
-          "domain_keyword": ".webpubsub.azure.com"
-        }
-      ],
-      "type": "logical"
     }
   ],
   "version": 1
