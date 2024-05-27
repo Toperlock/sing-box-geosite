@@ -139,8 +139,10 @@ def parse_list_file(link, output_directory):
         result_rules["rules"].insert(0, {'domain': domain_entries})
 
     # 处理逻辑规则
+    """
     if rules_list[0] != "[]":
         result_rules["rules"].extend(rules_list[0])
+    """
 
     # 使用 output_directory 拼接完整路径
     file_name = os.path.join(output_directory, f"{os.path.basename(link).split('.')[0]}.json")
