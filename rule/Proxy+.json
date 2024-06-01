@@ -2,6 +2,7 @@
   "rules": [
     {
       "domain": [
+        "400808.xyz",
         "861000.xyz",
         "91porn.com",
         "blog.misaka.rest",
@@ -42,6 +43,7 @@
     },
     {
       "domain_suffix": [
+        ".400808.xyz",
         ".861000.xyz",
         ".cdctel.com",
         ".doubanio.com",
