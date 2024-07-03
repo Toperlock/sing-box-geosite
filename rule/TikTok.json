@@ -2,9 +2,13 @@
   "rules": [
     {
       "domain": [
+        "cdn-tos-ncdn.bytegecko.com",
+        "dcd-cdn-tos.bytegecko.com",
         "lf16-effectcdn.byteeffecttos-g.com",
         "lf16-pkgcdn.pitaya-clientai.com",
-        "p16-tiktokcdn-com.akamaized.net"
+        "p16-tiktokcdn-com.akamaized.net",
+        "webcast-cdn-tos-ncdn.bytegecko.com",
+        "webcast-cdn-tos.bytegecko.com"
       ]
     },
     {
