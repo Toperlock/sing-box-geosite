@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "domain_keyword": [
+        "inicoapp"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "inicoapp.com"
+      ]
+    }
+  ],
+  "version": 1
+}
