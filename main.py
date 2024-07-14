@@ -89,7 +89,9 @@ def parse_and_convert_to_dataframe(link):
                         else:
                             pattern = 'DOMAIN'
                 else:
-                    pattern, address = item.split(',', 1)  
+                    pattern, address = item.split(',', 1)
+                if pattern == "IP-CIDR" and "no-resolve" in address:
+                    address = address.split(',', 1)[0]
                 rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
             df = pd.DataFrame(rows, columns=['pattern', 'address', 'other'])
         except:
