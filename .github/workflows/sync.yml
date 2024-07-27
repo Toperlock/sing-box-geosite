@@ -53,6 +53,7 @@ jobs:
         git config --global user.name "GitHub Action"
         git add ./rule/*.json
         git add ./rule/*.srs
+        git add ./rule/*.txt
 
         # 检查是否有文件被修改
         if git diff --staged --quiet; then
