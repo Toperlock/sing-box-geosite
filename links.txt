@@ -1,8 +1,1 @@
-
-{
-  "tag": "XPTV",
-  "type": "remote",
-  "format": "yaml",
-  "url": "https://raw.githubusercontent.com/fangkuia/XPTV/main/X/clash.yaml",
-  "download_detour": "auto"
-}
+https://raw.githubusercontent.com/fangkuia/XPTV/main/X/clash.yaml
