@@ -9,6 +9,9 @@
 !
 !
 !
+||hadronid.net^
+||postokdesk.live^
+||octonewjs.com^
 ||akaroafrypan.com^
 ||unbeardgorraf.top^
 ||lunse.ajscdn.com^
