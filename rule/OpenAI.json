@@ -7,7 +7,6 @@
         "aistudio.google.com",
         "alkalicore-pa.clients6.google.com",
         "alkalimakersuite-pa.clients6.google.com",
-        "api-iam.intercom.io",
         "api.githubcopilot.com",
         "api.msn.com",
         "api.statsig.com",
@@ -18,7 +17,6 @@
         "chat.mistral.ai",
         "chat.openai.com",
         "chat.openai.com.cdn.cloudflare.net",
-        "chatgpt.livekit.cloud",
         "console.mistral.ai",
         "copilot-proxy.githubusercontent.com",
         "copilot.microsoft.com",
@@ -43,7 +41,6 @@
         "r.bing.com",
         "self.events.data.microsoft.com",
         "services.bingapis.com",
-        "sfo3.turn.livekit.cloud",
         "static.cloudflareinsights.com",
         "sydney.bing.com",
         "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
@@ -53,7 +50,6 @@
     {
       "domain_keyword": [
         "openai",
-        "openaicom",
         "openaicom-api"
       ]
     },
@@ -88,7 +84,6 @@
         "gemini.google.com",
         "generativeai.google",
         "generativelanguage.googleapis.com",
-        "grazie.ai",
         "grazie.ai",
         "grazie.aws.intellij.net",
         "host.livekit.cloud",
