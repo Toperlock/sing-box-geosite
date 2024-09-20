@@ -6,22 +6,30 @@ import json
 import requests
 import yaml
 import ipaddress
+from io import StringIO
 
 # 映射字典
-MAP_DICT = {'DOMAIN-SUFFIX': 'domain_suffix', 'HOST-SUFFIX': 'domain_suffix', 'DOMAIN': 'domain', 'HOST': 'domain', 'host': 'domain',
+MAP_DICT = {'DOMAIN-SUFFIX': 'domain_suffix', 'HOST-SUFFIX': 'domain_suffix', 'host-suffix': 'domain_suffix', 'DOMAIN': 'domain', 'HOST': 'domain', 'host': 'domain',
             'DOMAIN-KEYWORD':'domain_keyword', 'HOST-KEYWORD': 'domain_keyword', 'host-keyword': 'domain_keyword', 'IP-CIDR': 'ip_cidr',
             'ip-cidr': 'ip_cidr', 'IP-CIDR6': 'ip_cidr', 
             'IP6-CIDR': 'ip_cidr','SRC-IP-CIDR': 'source_ip_cidr', 'GEOIP': 'geoip', 'DST-PORT': 'port',
             'SRC-PORT': 'source_port', "URL-REGEX": "domain_regex", "DOMAIN-REGEX": "domain_regex"}
 
 def read_yaml_from_url(url):
-    response = requests.get(url)
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    response = requests.get(url, headers=headers)
     response.raise_for_status()
     yaml_data = yaml.safe_load(response.text)
     return yaml_data
 
 def read_list_from_url(url):
-    df = pd.read_csv(url, header=None, names=['pattern', 'address', 'other', 'other2', 'other3'])
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        csv_data = StringIO(response.text)
+        df = pd.read_csv(csv_data, header=None, names=['pattern', 'address', 'other', 'other2', 'other3'], on_bad_lines='skip')
+    else:
+        return None
     filtered_rows = []
     rules = []
     # 处理逻辑规则
@@ -90,7 +98,7 @@ def parse_and_convert_to_dataframe(link):
                             pattern = 'DOMAIN'
                 else:
                     pattern, address = item.split(',', 1)
-                if pattern == "IP-CIDR" and "no-resolve" in address:
+                if ',' in address:
                     address = address.split(',', 1)[0]
                 rows.append({'pattern': pattern.strip(), 'address': address.strip(), 'other': None})
             df = pd.DataFrame(rows, columns=['pattern', 'address', 'other'])
@@ -157,8 +165,8 @@ def parse_list_file(link, output_directory):
         srs_path = file_name.replace(".json", ".srs")
         os.system(f"sing-box rule-set compile --output {srs_path} {file_name}")
         return file_name
-    except:
-        print(f'获取链接出错，已跳过：{link}')
+    except Exception as e:
+        print(f'获取链接出错，已跳过：{link}，原因：{str(e)}')
         pass
 
 # 读取 links.txt 中的每个链接并生成对应的 JSON 文件
