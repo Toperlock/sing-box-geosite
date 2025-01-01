@@ -14,10 +14,7 @@
 ||pm.chetahtalc.com^
 ||jhu8u9.pro^$all
 ||fdolspwa.my^$all
-||loftersvisaya.com^
-||chimneydicier.com^
 ||gsrgjsmymkwt.com^
-||zeecajichaiw.net^
 ||server.megabrain.co^
 ||cf.adxcel.com^
 ||cda7k-ddok.com^
@@ -25,22 +22,8 @@
 ||sat.dipamaid.net^
 ||sat.terithrow2.net^
 ||sat.fevilsor5.net^
-||leegreemula.net^
 ||predictivadnetwork.com^$all
-||ageetsaimouphih.net^
-||cpngiubbcnq.love^
 ||rixengine.com^$third-party
-||humbleromecontroversial.com^
-||zippercontinual.com^
-||qrifhajtabcy.com^
-||joogruphezefaul.net^
-||legiblyosmols.top^
-||piotyo.xyz^
-||pledgorulmous.top^
-||datazap.online^
-||profitablecpmrate.com^
-||gonakedowing.com^
-||vauloops.net^
 ||tracking.pretrackings.com^$all
 ||eyewondermedia.com^$all
 ||my.toruftuiov.com^$all
@@ -51,7 +34,6 @@
 ||y.crazyporn.xxx^
 ||cdn2.sales-frontier.com^
 ||cdn.xpln.tech^
-||phidianowlet.com^
 ||countabledawdlerunaudited.com^$all
 ||worthwhile-wash.com^$all
 ||bxxibvjt.com^
@@ -209,7 +191,6 @@
 ||monsy.com^$third-party
 ||fireworkadservices1.com^
 ||japanhotties.jp^$all
-||df80k0z3fi8zg.cloudfront.net^
 ||getmackeepersoftpro.xyz^$all
 ||emisja.contentstream.pl^$third-party
 ||ads.playground.xyz^
@@ -220,8 +201,6 @@
 ||ad.bluepartner.eu^
 ||androidtvchannels-pa.googleapis.com^
 ||androidtvwatsonfe-pa.googleapis.com^
-||allsports4free.live^
-||viadata.store^$third-party
 ||jicypigra.com^
 ||turnipsoft.pubfinity.com^
 ||api.pubfinity.com^
@@ -257,7 +236,6 @@
 ||bbnfcfrvjs.com^
 ||adsjumbo.com^$third-party
 ||lukomol.com^
-||stimulateartificial.com^
 ||cdend.com^$third-party
 ||googles.video^$third-party
 ||brunettemattersrefused.com^
@@ -265,7 +243,6 @@
 ||adshares.net^$third-party
 ||ad.foxnetworks.com^
 ||1f7wwaex9rbh.com^
-||kindnessmarshalping.com^
 ||ag.palmtube.net^$third-party
 ||parlorscenes.com^
 ||xdowl0adxd0wnloadx.com^
@@ -275,12 +252,10 @@
 ||skimresources.com^$third-party
 ||pocketads.pl^$third-party
 ||bluffyporn.com^$third-party
-||adbetnetwork.com^$third-party
 ||centralheat.me^$all
 ||traffic.pinklabel.com^$third-party
 ||go.tmrjmp.com^$all
 ||go.xxxjmp.com^$all
-||fwtrck.com^
 ||hothomefuck.com^$third-party
 ||adultsclips.com^$third-party
 ||lajeshuru.pro^
@@ -293,7 +268,6 @@
 ||scripts.static-od.com^$third-party
 ||thevtk.com^$third-party
 ||adhooah.com^$third-party
-||intentionscommunity.com^
 ||phiriaxi.com^
 ||trknex.com^$all
 ||slotscity.g2afse.com^$all
@@ -311,7 +285,6 @@
 ||admost-banner.b-cdn.net^$third-party
 ||claring-loccelkin.com^$all
 ||creative.leojmp.com^$third-party
-||woollenthawewe.com^
 ||ptwmstc.com^$third-party
 ||loveofffer.com^$all
 ||adsgig.com^
@@ -354,7 +327,6 @@
 ||adsmodern.com^$third-party
 ||yourdestinationlink.com^$all
 ||adshort.media^$all
-||wokm8isd4zit.com^
 ||a.binpartner.com^$third-party
 ||discovernative.com^$third-party
 ||gecontentasap.com^$third-party
@@ -421,9 +393,6 @@
 ||refparjhob.top^$all
 ||xml.bidiology.com^$all
 ||rkymfevzeq.com^$third-party
-||ppcnt.us^$popup
-||ppcnt.eu^$popup
-||ppcnt.co^$popup
 ||doathair.com^
 ||preanalytication.com^
 ||milk.supertool.stunnermedia.com^$third-party
@@ -479,7 +448,6 @@
 ||bitcoines.com^$third-party
 ||admarket.network^$third-party
 ||laratlacrestot.pro^
-||vdo.ai^$third-party
 ||bigyapan.hamropatro.com^$third-party
 ||adalytics.prixacdn.net^$third-party
 ||sometired.com^$third-party
@@ -601,7 +569,6 @@
 ||qwfh39851jtfvkurf21hf.com^
 ||onaudience.com^$third-party
 ||ichlnk.com^$third-party
-||adform.net^
 ||plxnt.com^$third-party
 ||ad-specs.guoshipartners.com^
 ||aanqylta.com^
@@ -628,7 +595,6 @@
 ||ashow.pcpop.com^$third-party
 ||biggestplayer.cachefly.net^
 ||pvrtx.net^$third-party
-||adsb4trk.com^$popup
 ||checkhit.com^$third-party
 .bbelements.com^$third-party
 .doublepimp.com^$third-party
@@ -644,7 +610,6 @@
 ||adtech.com^$third-party
 ||affsnetwork.com^$third-party
 ||alephd.com^$third-party
-||am15.net^$popup
 ||appintop.com^$third-party
 ||applicationgrabb.net^$third-party
 ||apytrc.com^$third-party
@@ -665,7 +630,6 @@
 ||dasistnews.net^$third-party
 ||dc121677.com^$third-party
 ||dsp-eu.exe.bid^$third-party
-||eclkmpsa.com^$popup
 ||epom.com^$third-party
 ||exitintel.com^$third-party
 ||exogripper.com^$third-party
@@ -693,7 +657,6 @@
 ||ovgzbnjj.com^$third-party
 ||pketred.com^$third-party
 ||qadabra.com^$third-party
-||rdsa2012.com^$popup
 ||redichat.com^$third-party
 ||referrer.website^$third-party
 ||serve.williamhill.com^$third-party
@@ -701,13 +664,10 @@
 ||strands.com^$third-party
 ||syndication.jsadapi.com^$third-party
 ||tapfiliate.com^$third-party
-||thnqemehtyfe.com^$popup
 ||tizermedias.com^$third-party
 ||track.bcvc.mobi^
 ||tracking.cirrusinsight.com^
 ||tradeadexchange.com^$popup,third-party
-||trafficholder.com^$popup
-||trafficmagnates.com^$popup
 ||traforet.com^$third-party
 ||tubecontext.com^$third-party
 ||videogenetic.com^$third-party
@@ -827,7 +787,6 @@
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 ||analyticsq.com^
 ||d71e6dd31a026d45.com$popup
-||adrunnr.com^$popup
 !#endif
 !
 ! https://github.com/AdguardTeam/AdGuardHome/issues/1046
@@ -848,15 +807,7 @@
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adocean.txt
 !
 ! AdSpyglass : 0i0i0i0.com disguised advertising networks
-||bloblohub.com^
-||sanjay44.xyz^
 ||prettytube.net^
-||sieglinde22.xyz^
-||hubhubhub.name^
-||neigh11.xyz^
-||cdnvideo3.com^
-||fin.ovh^
-||tjaard11.xyz^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adspyglass.txt
 !
 ! Aquaplatform : aquaplatform.com disguised advertising networks
@@ -864,33 +815,18 @@
 !
 ! ahacdn.me : cdn18685953.ahacdn.me disguised advertising networks
 ||freshalldaynews.com^
-||reminews.com^
 ||groovinews.com^
-||guesswhatnews.com^
 ||km14hkusz.com^
-||lookinews.com^
 ||j74y03g8u.com^
-||gofenews.com^
-||deeginews.com^
 ||shockynews.com^
 ||karponews.com^
-||tegronews.com^
-||luronews.com^
 ||bestandgreatests.com^
-||sifenews.com^
 ||bealanews.com^
 ||jumronews.com^
-||rookinews.com^
-||lootynews.com^
-||jemonews.com^
-||huronews.com^
 ||bestoffers-wt.com^
 ||bestoffers-fe.com^
-||lycheenews.com^
-||loopanews.com^
 ||ksrtmgoym.com^
 ||ruranews.com^
-||selornews.com^
 ||findgreatnews.com^
 ||newsbeala.com^
 ||uho5m96ej.com^
@@ -905,12 +841,9 @@
 ||7bkzlyfvl.com^
 ||x4q4g2zy7.com^
 ||4e8bjpldk.com^
-||selecttopoff.com^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/ahacdn_me.txt
 !
 ! Clickaine : api.clickaine.com disguised advertising networks
-||rtnews.pro^
-||brandnewapp.pro^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/clickthroughs/clickaine.txt
 !
 ! ads2.bid : ads.bid disguised advertising networks
@@ -921,11 +854,6 @@
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/heleric_com.txt
 !
 ! NameSilo : ab1n.net disguised advertising networks
-||notify6.com^
-||notifysrv.com^
-||optimizesrv.com^
-||exoclick.com^
-||bizonads-ssp.com^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/namesilo.txt
 !
 ! nonli.com : nonli.com disguised advertising networks
@@ -939,59 +867,40 @@
 ||bidmyqps.xyz^
 ||ctrtraffic.com^
 ||userwave.com^
-||additionalmedia.com^
 ||mediacpc.com^
 ||globlemath.com^
 ||convergeselect.net^
 ||plarimoplus.com^
 ||xrtb.io^
 ||celxkpdir.com^
-||adkernel.com^
-||ezmob.com^
 ||nativeads.com^
-||xapads.com^
 ||catapultx.com^
 ||e-volution.ai^
 ||adsolut.in^
 ||coupontic.com^
 ||rtbplatform.net^
-||afkwa.com^
 ||xaprio.net^
-||chameleostudios.com^
-||rocoads.com^
-||mobipromote.com^
 ||adzestocp.com^
-||qksrv.cc^
 ||topdealad.com^
 ||eximdigital.com^
 ||andbeyond.media^
-||pressize.com^
-||trafficmoose.com^
 ||clixforads.com^
 ||jadspro.live^
 ||ween.bid^
 ||thenetwork18.com^
-||junmediadirect1.com^
 ||solarad.net^
 ||bidmyadz.com^
-||kunvertads.com^
 ||benrif-solutions.com^
-||adoperatorx.com^
-||hueadsxml.com^
 ||showcasead.com^
-||qksrv1.com^
 ||convertap.com^
-||fstsrv4.com^
 ||aserve1.net^
 ||152media.com^
 ||xmlfusion.com^
 ||waardex.com^
-||adop.co^
 ||adventurefeeds.com^
 ||creativedot.net^
 ||hetcash.com^
 ||152media.cloud^
-||vespymedia.com^
 ||foremedia.net^
 ||adzgame.com^
 ||fmlabsonline.com^
@@ -1002,23 +911,16 @@
 ||resugovex-2.co^
 ||icyads.com^
 ||jambojar.com^
-||nativeadsfeed.com^
 ||flairads.com^
 ||infinity-info.com^
 ||plarimocl.com^
 ||demandzoo.com^
-||flairadscpc.com^
 ||unibots.in^
-||adjux.com^
-||blueparrot.media^
 ||looksmart.com^
 ||qualiclicks.com^
 ||fstsrv7.com^
 ||relevanceads.com^
 ||reachableads.com^
-||bidderads.com^
-||ad-maven.com^
-||pushub.net^
 ||pixelpluses.com^
 ||fstsrv6.com^
 ||cerineas.com^
@@ -1026,14 +928,11 @@
 ||newchallenges-dsp.com^
 ||webmedxml.com^
 ||rtbserve.io^
-||zeusadx.com^
 ||adbite.com^
-||zaimads.com^
 ||qortex.ai^
 ||musiciansaudience.com^
 ||xmlppc.net^
 ||resugovex-1.co^
-||clixwells.com^
 ||adsbuyclick.com^
 ||adxfactory.com^
 ||admozartxml.com^
@@ -1042,34 +941,23 @@
 ||adright.com^
 ||explorads.com^
 ||datacygnal.io^
-||fstsrv8.com^
-||fstsrv5.com^
-||otbackstage2.online^
-||admidainsight.com^
-||boffoadsfeeds.com^
-||admeridianads.com^
 ||appocean.media^
 ||bliss91.com^
 ||80xmedia.com^
 ||topsolutionsmedia.com^
-||tri.media^
 ||iforcircles-1.online^
 ||adoptim.com^
 ||adpalladium.com^
 ||clixvista.com^
 ||rtbdemand.com^
-||acertb.com^
 ||mediadstream.com^
 ||adhunter.media^
 ||adcy.net^
 ||adokutcontextual.com^
 ||yeesshh.com^
-||adright.co^
 ||zentrixads.com^
-||realtime-bid.com^
 ||mobuppsrtb.com^
 ||pwr-ads.com^
-||adcannyxml.com^
 ||looksmartppc.com^
 ||adpluto.com^
 ||saturndynamic.pt^
@@ -1078,15 +966,12 @@
 ||vuukle.net^
 ||adflyer.media^
 ||openrtb.in^
-||online-adnetwork.com^
 ||clickmeniaads.com^
 ||displayio.cloud^
-||donkstar2.online^
 ||rtbadzesto.com^
 ||vokut.com^
 ||advlistings.com^
 ||minutelight-1.online^
-||revrtb.com^
 ||newbluetrue.xyz^
 ||onemediawork.com^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/webair.txt
