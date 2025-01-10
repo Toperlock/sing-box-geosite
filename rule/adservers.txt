@@ -9,6 +9,7 @@
 !
 !
 !
+||uz-kqtecqs.space^
 ||mqprzapns.com^
 ||dzeaqmeuaql.com^
 ||bjjky.cfd^$all
@@ -704,6 +705,10 @@
 ||vipads.live^
 !+ NOT_OPTIMIZED
 ||api.smartnews-ads.com^
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/196097
+||tn.porngo.xxx^$badfilter
+||tn.porngo.xxx^$third-party
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189721
 ! Opera promo on third-party sites
