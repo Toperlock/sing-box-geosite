@@ -9,6 +9,8 @@
 !
 !
 !
+||engine.trialhd.com^
+||getwptag.org^
 ||directone.xyz^$all
 ||dramaticsalad.com^$all
 ||chinnedwithset.com^
