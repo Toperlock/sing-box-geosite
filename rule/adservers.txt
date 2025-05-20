@@ -9,6 +9,9 @@
 !
 !
 !
+||chief-border.com^
+||slejcsgbrsaqpmt.com^
+||kdm8.com^
 ||aoqenxgnxtnnc.club^
 ||plush-abuse.com^$all
 ||obnoljac.com^$all
@@ -19,11 +22,9 @@
 ||fileescd.cfd^$all
 ||productdownload.pro^$all
 ||hrzn-nxt.com^$third-party
-||madcheddar.net^
 ||tradehouse.media^$third-party
 ||couloirmatrass.com^
 ||noyanceborer.com^
-||edertauvaisoo.net^
 ||pkphftlpkxbhk.com^
 ||catoixeam.click^$all
 ||trgfx.b-cdn.net^$all
@@ -32,14 +33,12 @@
 ||worshippers.store^$all
 ||gusoclji.com^
 ||lolostan.com^$all
-||awdeliverynet.com^$third-party
 ||bevfpfekwskzg.world^
 ||ebvvvnjesjgx.com^
 ||yrscfbbegumijt.com^
 ||techaddom8132.com^
 ||rca.lol^
 ||8s5s.com^$all
-||hersfohiplace.org^
 ||perky-method.com^
 ||nvpartnerspromo.com^$all
 ||yougetwhatyoupayfor.net^
@@ -47,7 +46,6 @@
 ||fluxtech.ai^$third-party
 ||semygruja.com^$all
 ||performoo.com^
-||keethoostoaps.net^
 ||rneniibeiijmxeb.com^
 ||s2.static.cfgr3.com^
 ||4bind2.cfd^$all
@@ -55,15 +53,11 @@
 ||few-politics.com^
 ||dreary-hunt.com^
 ||craniolgozzan.com^
-||enigmamedicine.com^
 ||sparteo.com^$third-party
 ||htagpa.tech^$third-party
 ||call.thebutterfly.eu^$third-party
 ||xdrlthfhikvgm.club^
-||parteinroll.xyz^
 ||floors.dev^
-||srvtensz.com^
-||exo1.georealcdn.com^
 ||jouchithep.net^
 ||mushlaregrass.com^
 ||iawbcdohtprwaxg.com^
@@ -892,6 +886,9 @@
 ! https://github.com/AdguardTeam/FiltersRegistry/pull/937
 ! To fix the issue with the CNAME trackers, add problematic domains here:
 ! https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/exclusions.txt
+!
+! GoAdserver : go.goadserver.com disguised advertising networks
+!#include https://adguardteam.github.io/cname-trackers/data/ads/goadserver.txt
 !
 ! Adocean : adocean.pl disguised advertising networks
 !#include https://adguardteam.github.io/cname-trackers/data/ads/adocean.txt
