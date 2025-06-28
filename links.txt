@@ -1,3 +1,9 @@
+
+
+https://raw.githubusercontent.com/ccc52266/Emby/main/clash
+https://raw.githubusercontent.com/ccc52266/embyh/main/clash
+https://raw.githubusercontent.com/ccc52266/CC/main/README.md
+https://raw.githubusercontent.com/ccc52266/douyin/main/README.md
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Bilibili.list
 https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list
