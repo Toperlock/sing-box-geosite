@@ -4,7 +4,8 @@
       "domain": [
         "lf16-effectcdn.byteeffecttos-g.com",
         "lf16-pkgcdn.pitaya-clientai.com",
-        "p16-tiktokcdn-com.akamaized.net"
+        "p16-tiktokcdn-com.akamaized.net",
+        "trae-api-sg.mchost.guru"
       ]
     },
     {
@@ -17,12 +18,14 @@
       "domain_suffix": [
         "bytedapm.com",
         "bytegecko-i18n.com",
+        "byteintlapi.com",
         "byteoversea.com",
         "capcut.com",
         "ibytedtos.com",
         "ibyteimg.com",
         "ipstatp.com",
         "isnssdk.com",
+        "marscode.com",
         "muscdn.com",
         "musical.ly",
         "sgpstatp.com",
