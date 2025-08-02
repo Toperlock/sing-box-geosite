@@ -843,6 +843,15 @@
     },
     {
       "domain_keyword": [
+        "-ad.sm.cn",
+        "-ad.video.yximgs.com",
+        "-ad.wtzw.com",
+        "-be-pack-sign.pglstatp-toutiao.com",
+        "-normal.zijieapi.com"
+      ]
+    },
+    {
+      "domain_regex": [
         "..1rtb.com",
         "..a.market.xiaomi.com",
         "..ad.gameley.com",
@@ -861,6 +870,21 @@
         "[a-zA-Z0-9.-]-be-pack-sign.pglstatp-toutiao.com",
         "[a-zA-Z0-9.-]-normal-[a-zA-Z0-9.-].zijieapi.com",
         "[a-zA-Z0-9.-]-normal.zijieapi.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "1rtb.com",
+        "a.market.xiaomi.com",
+        "ad.gameley.com",
+        "adintl.cn",
+        "adx.adwangmai.com",
+        "data.hicloud.com",
+        "log.aliyuncs.com",
+        "ubixioe.com",
+        "vlion.cn",
+        "yfanads.com",
+        "zhangyuyidong.cn"
       ]
     }
   ],
