@@ -4,7 +4,8 @@
       "domain": [
         "ai.google.dev",
         "alkalimakersuite-pa.clients6.google.com",
-        "makersuite.google.com"
+        "makersuite.google.com",
+        "alkalimakersuite-pa.clients6.google.com"
       ],
       "domain_keyword": [
         "generativelanguage",
@@ -18,7 +19,12 @@
         "proactivebackend-pa.googleapis.com",
         "gemini.google.com",
         "bard.google.com",
-        "generativeai.google"
+        "aistudio.google.com",
+        "generativeai.google",
+        "makersuite.google.com",
+        "geller-pa.googleapis.com",
+        "generativelanguage.googleapis.com",
+        "proactivebackend-pa.googleapis.com"
       ]
     }
   ],
