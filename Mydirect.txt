@@ -1,0 +1,10 @@
+im-dc1.chattti.com
+cdn.chattti.com
+api.datchat.net
+s.datchat.net
+.chattti.com
+.datchat.net
+IP-CIDR,185.171.247.85/32
+IP-CIDR,185.171.247.85/32
+IP-CIDR,52.20.219.200/32
+IP-CIDR,54.236.16.160/32
