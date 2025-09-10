@@ -1,4 +1,26 @@
 {
-  "rules": [],
+  "rules": [
+    {
+      "domain": [
+        "api.datchat.net",
+        "cdn.chattti.com",
+        "im-dc1.chattti.com",
+        "s.datchat.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".chattti.com",
+        ".datchat.net"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "185.171.247.85/32",
+        "52.20.219.200/32",
+        "54.236.16.160/32"
+      ]
+    }
+  ],
   "version": 2
 }
