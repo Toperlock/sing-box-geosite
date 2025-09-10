@@ -1,9 +1,9 @@
-im-dc1.chattti.com
-cdn.chattti.com
-api.datchat.net
-s.datchat.net
-.chattti.com
-.datchat.net
+DOMAIN,im-dc1.chattti.com
+DOMAIN,cdn.chattti.com
+DOMAIN,api.datchat.net
+DOMAIN,s.datchat.net
+DOMAIN-SUFFIX,.chattti.com
+DOMAIN-SUFFIX,.datchat.net
 IP-CIDR,185.171.247.85/32
 IP-CIDR,185.171.247.85/32
 IP-CIDR,52.20.219.200/32
