@@ -9,6 +9,9 @@
 !
 !
 !
+||protect-myphone.com^$all
+||zeemauwoufug.net^
+||rtxgywxcqhbm.com^
 ||adblock1.static-cloudflare.workers.dev^
 107.148.45.21$network
 ||sosalkebab.com^$all
