@@ -1,0 +1,2 @@
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,.ls.apple.com
