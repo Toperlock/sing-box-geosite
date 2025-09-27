@@ -9,12 +9,14 @@
 !
 !
 !
-||adblock1.static-cloudflare.workers.dev^
+||tjskjndukyk.com^
+||arrasinutile.com^
+||talkativeend.com^
+||adtscriptshark.com^
+||protect-myphone.com^$all
 107.148.45.21$network
 ||sosalkebab.com^$all
 ||droplink.digital^$all
-||revenuecpmgate.com^
-||jszxpgqtwmdkv.site^
 ||openads.aira.cz^
 ||drainmayhem.click^
 198.23.198.110$network
@@ -24,16 +26,12 @@
 ||tdcegypt.com^$all
 ||cractivator.com^$all
 ||nwhentheautumn.com^
-||hwithyouryrety.org^
 ||bid-algorix.com^
 ||loopmeedge.net^
 ||kayzen.io^
 ||smrtads.com^
 ||foisonad.com^
 ||liftyad.xyz^
-||hjejevuwisio.com^
-||stevungegn.com^
-||pgnasmcdn.click^
 ||update-macosx.com^$all
 ||gjxmcla.pro^
 ||adactive.cz^
@@ -41,8 +39,6 @@
 ||nexx360.io^$third-party
 ||ppcent.org^
 ||warp.media.net^
-||flustered-beer.com^
-||carbonads.com^$third-party
 ||brightadnetwork.com^
 ||edhmnn.com^
 ||fast-down.ru^
@@ -50,8 +46,6 @@
 ||conde.digital^
 ||demoaccount.site^
 ||js.rev.iq^$third-party
-||popular-tea.com^
-||lanky-bar.com^
 ||montmena.top^
 ||redetaailshilet.com^
 ||usheebainaut.com^
@@ -66,7 +60,6 @@
 ||buoydeparturediscontent.com^$all
 ||app.189tutors.com^$third-party
 ||tiz-cc95ue-309.com^
-||tinyadz.com^$third-party
 ||pahtpw.tech^
 ||livestt.co^
 ||skypie.info^
@@ -85,7 +78,6 @@
 ||productdownload.pro^$all
 ||hrzn-nxt.com^$third-party
 ||tradehouse.media^$third-party
-||couloirmatrass.com^
 ||catoixeam.click^$all
 ||trgfx.b-cdn.net^$all
 ||westfile-dl.click^$all
@@ -96,9 +88,7 @@
 ||techaddom8132.com^
 ||rca.lol^
 ||8s5s.com^$all
-||perky-method.com^
 ||nvpartnerspromo.com^$all
-||yougetwhatyoupayfor.net^
 ||sahqtibw.com^
 ||fluxtech.ai^$third-party
 ||semygruja.com^$all
@@ -112,7 +102,6 @@
 ||call.thebutterfly.eu^$third-party
 ||xdrlthfhikvgm.club^
 ||floors.dev^
-||mushlaregrass.com^
 ||iiageq.com^
 ||splendlddate.com^$all
 ||player.gliacloud.com^$third-party
@@ -319,7 +308,6 @@
 ||adshares.net^$third-party
 ||ad.foxnetworks.com^
 ||1f7wwaex9rbh.com^
-||parlorscenes.com^
 ||xdowl0adxd0wnloadx.com^
 ||aj2204.online^$third-party
 ||librateam.net^$all
@@ -357,7 +345,6 @@
 ||tpx.tesseradigital.com^
 ||adp13a.com^$all
 ||admozartxml.com^$all
-||spoilphysiqueteenagers.com^
 ||delivery.sexyxxx.biz^
 ||red12flyw2.site^$third-party
 ||vliplatform.com^$third-party
@@ -801,13 +788,6 @@
 ! We include rules from AdGuard's cname-tracker repo here, and add some additional rules,
 ! which will be used during the optimization by /optimizeDomainBlockingRules option.
 !
-! TODO: Check for CNAME ad servers
-! Don't add monetag.com here
-||amaerodactylon.com^
-||cdn.aucey.com^
-||zk1w.com^
-||g4nd.com^
-||2ddq.com^
 !
 ! https://github.com/AdguardTeam/FiltersRegistry/pull/937
 ! To fix the issue with the CNAME trackers, add problematic domains here:
@@ -848,6 +828,11 @@
 !
 ! heleric.com : heleric.com disguised advertising networks
 !#include https://adguardteam.github.io/cname-trackers/data/ads/heleric_com.txt
+!
+! Monetag : amaerodactylon.com disguised advertising networks
+||amaerodactylon.com^
+||cdn.aucey.com^
+!#include https://adguardteam.github.io/cname-trackers/data/ads/monetag.txt
 !
 ! NameSilo : ab1n.net disguised advertising networks
 !#include https://adguardteam.github.io/cname-trackers/data/ads/namesilo.txt

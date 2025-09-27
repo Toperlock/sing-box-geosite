@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "gspe1-ssl.ls.apple.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".ls.apple.com"
+      ]
+    }
+  ],
+  "version": 2
+}
