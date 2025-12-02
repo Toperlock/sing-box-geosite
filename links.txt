@@ -1,14 +1,96 @@
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Bilibili.list
-https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Facebook/Facebook.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
-https://adrules.top/adrules_domainset.txt
-https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt
+# ========== 你这份配置里真正用到的全部规则集（2025-12 最新可用链接）==========
+
+# WebRTC 泄露阻止
+https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/rules/WebRTC.list
+
+# Fake-IP 过滤（防止污染）
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/fakeip-filter.mrs
+
+# 中国大陆 IP（推荐 MetaCubeX 官方完整版）
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs
+
+# 中国大陆域名（你原来用的是 DustinWin 的精简版，这里给你更全的官方版）
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs
+
+# 广告拦截（AWAvenue 全量去广告）
+https://cdn.jsdelivr.net/gh/TG-Twilight/AWAvenue-Ads-Rule@main/Filters/AWAvenue-Ads-Rule-Clash.mrs
+
+# 小红书 OCD 精校版
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/XiaoHongShu/XiaoHongShu_OCD_Domain.mrs
+
+# 抖音 OCD 精校版
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/DouYin/DouYin_OCD_Domain.mrs
+
+# 哔哩哔哩域名 + IP
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/bilibili.mrs
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/bilibili.mrs
+
+# Steam OCD 精校版
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Steam/Steam_OCD_Domain.mrs
+
+# TikTok
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/tiktok.mrs
+
+# Spotify 域名 + IP
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/spotify.mrs
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Spotify/Spotify_OCD_IP.mrs
+
+# Facebook 域名 + IP
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Facebook/Facebook_OCD_Domain.mrs
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/facebook.mrs
+
+# E-hentai
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/ehentai.mrs
+
+# Pixiv
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/pixiv.mrs
+
+# Telegram 域名 + IP（官方完整版）
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/telegram.mrs
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/telegram.mrs
+
+# YouTube 域名 + IP
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/youtube.mrs
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/YouTube/YouTube_OCD_IP.mrs
+
+# Google 域名 + IP
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/google.mrs
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/google.mrs
+
+# Google FCM（谷歌推送）
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/googlefcm.mrs
+
+# Microsoft
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/microsoft.mrs
+
+# Apple 域名 + IP
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/apple.mrs
+https://cdn.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/ipcidr/apple.mrs
+
+# AI 类（ChatGPT/Claude/Gemini 等）
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/ai.mrs
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/ai.mrs
+
+# Instagram OCD 精校版
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Instagram/Instagram_OCD_Domain.mrs
+
+# Netflix 域名 + IP
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/netflix.mrs
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/netflixip.mrs
+
+# Discord OCD 精校版
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Discord/Discord_OCD_Domain.mrs
+
+# GitHub
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/github.mrs
+
+# Twitter(X) 域名 + IP
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Twitter/Twitter_OCD_Domain.mrs
+https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Twitter/Twitter_OCD_IP.mrs
+
+# Private/LAN 域名 + IP
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/private.mrs
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/privateip.mrs
+
+# Emby（你用的是 yaml 格式，sing-box 目前不支持直接用 yaml 规则集，建议改成本地文件或换成域名列表）
+# https://cdn.jsdelivr.net/gh/musiyun124/mihomo@main/rules/Emby.yaml   ← 这个暂时无法自动转换
