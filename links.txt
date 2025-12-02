@@ -1,14 +1,47 @@
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Bilibili.list
-https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Facebook/Facebook.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
-https://adrules.top/adrules_domainset.txt
-https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt
-https://github.com/GitMetaio/rule/blob/master/rule/Clash/Telegram/Telegram.list
+# WebRTC 泄露阻止（域名）
+https://cdn.jsdelivr.net/gh/MoGuangYu/Surfing@rm/Home/rules/WebRTC.list
+
+# 中国大陆 IP（MetaCubeX 官方）
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs
+
+# 中国大陆域名（MetaCubeX 官方）
+https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs
+
+# Telegram 域名（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/Telegram/Telegram_OCD_Domain.mrs
+
+# Telegram IP（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/Telegram/Telegram_OCD_IP.mrs
+
+# YouTube 域名（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/YouTube/YouTube_OCD_Domain.mrs
+
+# YouTube IP（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/YouTube/YouTube_OCD_IP.mrs
+
+# Google 域名（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/Google/Google_OCD_Domain.mrs
+
+# Google IP（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/Google/Google_OCD_IP.mrs
+
+# Google FCM（推送）域名（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/GoogleFCM/GoogleFCM_OCD_Domain.mrs
+
+# Google FCM（推送）IP（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/GoogleFCM/GoogleFCM_OCD_IP.mrs
+
+# AI 类服务域名（OpenAI/ChatGPT/Gemini/Claude 等，非中国）
+https://v6.gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.mrs
+
+# GitHub 域名（OCD 精校版）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/GitHub/GitHub_OCD_Domain.mrs
+
+# 私有/LAN 域名（Private + LAN）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/Lan/Lan_OCD_Domain.mrs
+
+# 私有/LAN IP（Private + LAN）
+https://cdn.jsdelivr.net/gh/MoGuangYu/rule@master/rule/Clash/Lan/Lan_OCD_IP.mrs
+
+# Fake-IP 过滤列表（避免 fakeip 污染常用域名）
+https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/fakeip-filter.mrs
