@@ -9,6 +9,8 @@
 !
 !
 !
+||17324723.cfd^
+||pzaawtgujvim.com^
 ||dwlv.xyz^
 ||dwlv.xyz^$popup
 ||phoobsoo.net^
@@ -889,6 +891,9 @@
 ! https://github.com/AdguardTeam/FiltersRegistry/pull/937
 ! To fix the issue with the CNAME trackers, add problematic domains here:
 ! https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/exclusions.txt
+!
+! Galaksion: beixisys.com disguised advertising networks
+!#include https://adguardteam.github.io/cname-trackers/data/ads/galaksion.txt
 !
 ! RealBig : park.realbig.online disguised advertising networks
 !#include https://adguardteam.github.io/cname-trackers/data/ads/realbig.txt
