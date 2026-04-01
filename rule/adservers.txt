@@ -9,6 +9,8 @@
 !
 !
 !
+||gggpppht.com^
+||ember-cf-netlify.cdn-x.net^
 ||ad-blocker-1.static-cloudflare.workers.dev^
 ||traumatic-witness.pro^
 ||quizzicalrun.com^
