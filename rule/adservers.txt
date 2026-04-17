@@ -9,6 +9,10 @@
 !
 !
 !
+||crxcra.com^
+||wild-match.com^
+||traffic.cam4pays.com^
+||bigcrunch.com^$third-party
 ||go.gsrv.dev^$all
 ||gatheringtypes.com^
 ||hoerenjs.b-cdn.net^
