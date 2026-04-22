@@ -9,6 +9,8 @@
 !
 !
 !
+||yoszi.com^$third-party
+||d3rem.com^
 ||crxcra.com^
 ||wild-match.com^
 ||traffic.cam4pays.com^
