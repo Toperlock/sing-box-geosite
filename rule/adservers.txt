@@ -9,6 +9,7 @@
 !
 !
 !
+||b-short.link^$all
 ||yoszi.com^$third-party
 ||d3rem.com^
 ||crxcra.com^
