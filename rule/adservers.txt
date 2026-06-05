@@ -9,6 +9,8 @@
 !
 !
 !
+||lustygg.com^$all
+||fetchperiodic.com^
 ||betus.com.pa^$all
 ||aboveboardcomplicate.com^
 ||as-pet.ams3.cdn.digitaloceanspaces.com^$all
