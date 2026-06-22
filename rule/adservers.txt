@@ -9,6 +9,8 @@
 !
 !
 !
+||neo7x.com^
+||druxxo.com^
 ||masterlythehague.com^
 ||portalfluently.com^
 ||zzlocalsquared.com^
@@ -26,7 +28,6 @@
 ||clk.ourdream.ai^$all
 ||adsconex.com^$third-party
 ||wrupqrdcwvjar.space^
-||duckier.com^
 ||streamvault.top^
 ||103.179.189.35^$network
 ||twimg.cash^$all
