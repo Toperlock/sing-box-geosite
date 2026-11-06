@@ -9,6 +9,10 @@
 !
 !
 !
+||expapi.pureapk.com/$third-party
+||trambelongedallure.com^
+||contuselegator.com^
+||dvwztnx4ab3fl.cloudfront.net^
 ||insightjs.com^$all
 ||insightjs.org^$all
 89.127.233.127$network
