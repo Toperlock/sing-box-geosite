@@ -9,6 +9,9 @@
 !
 !
 !
+||amazingfork.com^
+||namebrain.org^
+||zipzirim.com^
 ||royalbluefireplace.com^
 ||coolaspen.tech^
 ||9hito.com^$third-party
